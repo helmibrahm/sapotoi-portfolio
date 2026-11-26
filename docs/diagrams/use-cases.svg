@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="700" viewBox="0 0 1120 700" role="img" aria-labelledby="title desc">
+<title id="title">Sapotoi use case diagram</title><desc id="desc">Operator can browse directory, view activity dashboard, manage channels and unlock admin controls. An operator in the unlocked UI state can maintain directory records, start batch provisioning, start browser registration and view job logs.</desc>
+<rect width="1120" height="700" rx="16" fill="#ffffff"/>
+<rect x="215" y="55" width="690" height="565" rx="12" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
+<g font-family="Arial, sans-serif" fill="#0f172a" text-anchor="middle">
+<text x="560" y="91" font-size="23" font-weight="bold">Sapotoi system boundary</text>
+<text x="390" y="125" font-size="15" fill="#475569">General interactions</text>
+<text x="730" y="125" font-size="15" fill="#475569">Unlocked UI interactions</text>
+<path d="M 110 333 L 248 190" stroke="#64748b" stroke-width="1.8" fill="none"/>
+<path d="M 1010 333 L 872 190" stroke="#64748b" stroke-width="1.8" fill="none"/>
+<path d="M 110 333 L 248 305" stroke="#64748b" stroke-width="1.8" fill="none"/>
+<path d="M 1010 333 L 872 305" stroke="#64748b" stroke-width="1.8" fill="none"/>
+<path d="M 110 333 L 248 420" stroke="#64748b" stroke-width="1.8" fill="none"/>
+<path d="M 1010 333 L 872 420" stroke="#64748b" stroke-width="1.8" fill="none"/>
+<path d="M 110 333 L 248 535" stroke="#64748b" stroke-width="1.8" fill="none"/>
+<path d="M 1010 333 L 872 535" stroke="#64748b" stroke-width="1.8" fill="none"/>
+<ellipse cx="390" cy="190" rx="142" ry="38" fill="#ffffff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="390" y="196.0" font-size="17">Browse directory</text>
+<ellipse cx="390" cy="305" rx="142" ry="38" fill="#ffffff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="390" y="301.0" font-size="17">View activity</text>
+<text x="390" y="321.0" font-size="17">dashboard</text>
+<ellipse cx="390" cy="420" rx="142" ry="38" fill="#ffffff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="390" y="426.0" font-size="17">Manage channels</text>
+<ellipse cx="390" cy="535" rx="142" ry="38" fill="#ffffff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="390" y="531.0" font-size="17">Unlock admin</text>
+<text x="390" y="551.0" font-size="17">controls</text>
+<ellipse cx="730" cy="190" rx="142" ry="38" fill="#ffffff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="730" y="186.0" font-size="17">Maintain directory</text>
+<text x="730" y="206.0" font-size="17">records</text>
+<ellipse cx="730" cy="305" rx="142" ry="38" fill="#ffffff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="730" y="301.0" font-size="17">Start batch</text>
+<text x="730" y="321.0" font-size="17">provisioning</text>
+<ellipse cx="730" cy="420" rx="142" ry="38" fill="#ffffff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="730" y="416.0" font-size="17">Start browser</text>
+<text x="730" y="436.0" font-size="17">registration</text>
+<ellipse cx="730" cy="535" rx="142" ry="38" fill="#ffffff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="730" y="541.0" font-size="17">View job logs</text>
+<g stroke="#0f172a" stroke-width="3" fill="none" stroke-linecap="round"><circle cx="110" cy="280" r="15"/><path d="M110 295 V340 M85 316 H135 M110 340 L87 373 M110 340 L133 373"/></g>
+<text x="110" y="398" font-size="16" font-weight="bold">Operator</text>
+<g stroke="#0f172a" stroke-width="3" fill="none" stroke-linecap="round"><circle cx="1010" cy="280" r="15"/><path d="M1010 295 V340 M985 316 H1035 M1010 340 L987 373 M1010 340 L1033 373"/></g>
+<text x="1010" y="398" font-size="16" font-weight="bold">Operator with</text>
+<text x="1010" y="418" font-size="16" font-weight="bold">admin unlock</text>
+<text x="560" y="660" font-size="15" fill="#475569">Admin unlock is a UI state, not a separate user role or an API permission guarantee.</text></g></svg>

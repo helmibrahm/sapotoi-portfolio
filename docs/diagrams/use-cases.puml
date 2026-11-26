@@ -1,0 +1,29 @@
+@startuml
+left to right direction
+skinparam shadowing false
+skinparam packageStyle rectangle
+actor "Operator" as O
+actor "Operator with\nadmin unlock" as A
+rectangle Sapotoi {
+  usecase "Browse directory" as U1
+  usecase "View activity dashboard" as U2
+  usecase "Manage channels" as U3
+  usecase "Unlock admin controls" as U4
+  usecase "Maintain directory records" as U5
+  usecase "Start batch provisioning" as U6
+  usecase "Start browser registration" as U7
+  usecase "View job logs" as U8
+}
+O -- U1
+O -- U2
+O -- U3
+O -- U4
+A -- U5
+A -- U6
+A -- U7
+A -- U8
+note bottom of A
+  Same operator in an unlocked UI state.
+  Not a separate enforced role.
+end note
+@enduml
